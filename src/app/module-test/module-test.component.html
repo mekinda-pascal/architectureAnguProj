@@ -1,0 +1,14 @@
+<div>
+  <app-nav [InputSide]="side"></app-nav>
+  <mat-sidenav-container>
+    <mat-sidenav #side mode="side">
+      <app-side></app-side>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div class="container-fluid">
+        <router-outlet></router-outlet>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  <app-foot></app-foot>
+</div>

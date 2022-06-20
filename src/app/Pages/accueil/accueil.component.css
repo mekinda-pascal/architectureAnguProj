@@ -1,0 +1,40 @@
+mat-sidenav {
+  width: 200px;
+
+  border-right: none;
+  border: 10px;
+
+
+  font-family: 'Times New Roman',
+    Times,
+    serif;
+  /* border-radius: 10px;
+  padding: 16px;
+  margin: 16px; */
+
+  background-color: white;
+  background-image: linear-gradient(to bottom, #e2e5e8, #A9ACA4);
+}
+
+
+
+
+mat-sidenav-content {
+  /* background: #E6E6E6;
+  background: #e2e5e8;
+  background-image: url("/src/assets/images/cover.jpeg");
+  */
+  background: #e2e5e8;
+  background-image: linear-gradient(to bottom, #e2e5e8, #A9ACA4);
+  font-family: 'Times New Roman',
+    Times,
+    serif;
+}
+
+mat-sidenav-container {
+  height: 86.9vh;
+  width: 100%;
+  font-family: 'Times New Roman',
+    Times,
+    serif;
+}

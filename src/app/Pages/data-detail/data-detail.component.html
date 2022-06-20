@@ -1,0 +1,43 @@
+<div class="mt-5">
+  <div class="card mat-elevation-z5" *ngIf="don">
+    <div class="card-header text-white">
+      {{ don.id }}
+    </div>
+
+    <div class="card-body">
+      <div class="row">
+        <div class="align">
+          <div class="col-md-8 gauche">
+            <div class="row">
+              <div class="col-md-4 bold">Id:</div>
+              <div class="col-md-8">{{ don.id }}</div>
+            </div>
+
+            <br />
+
+            <div class="row">
+              <div class="col-md-4 bold">Title:</div>
+              <div class="col-md-8">{{ don.title }}</div>
+            </div>
+
+            <br />
+
+            <div class="row">
+              <div class="col-md-4 bold">Body:</div>
+              <div class="col-md-8">{{ don.body }}</div>
+            </div>
+
+            <br />
+          </div>
+        </div>
+
+        <div class="card-footer">
+          <button class="btn btn-outline-primary d-flex" (click)="backToList()">
+            <span class="material-icons"> keyboard_arrow_left </span>
+            Retour à la liste
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

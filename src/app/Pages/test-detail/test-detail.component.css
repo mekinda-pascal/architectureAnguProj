@@ -1,0 +1,16 @@
+.card-header {
+  background-color: #3F51B5;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+
+.card {
+  background-color: transparent;
+  width: 100%;
+  border-radius: 10px;
+  font-family: "Times New Roman",
+    Times,
+    serif;
+
+}

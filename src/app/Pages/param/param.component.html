@@ -1,0 +1,18 @@
+<!-- <p>param work!</p>
+<app-module-test></app-module-test> -->
+
+<div>
+  <app-header [InputSidenav]="sidenav"></app-header>
+  <mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side">
+      <app-sidenav></app-sidenav>
+    </mat-sidenav>
+    <mat-sidenav-content>
+      <div class="container-fluid">
+        <!-- <router-outlet></router-outlet> -->
+        <app-data></app-data>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  <app-footer></app-footer>
+</div>

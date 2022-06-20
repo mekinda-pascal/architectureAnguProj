@@ -1,0 +1,132 @@
+.sidenav {
+  width: 200px;
+  height: 100%;
+  display: block;
+  /* background: #e2e5e8;
+  background-image: linear-gradient(to bottom, #e2e5e8, #A9ACA4);
+  align-items: center;
+
+  */
+  background: #464748;
+  justify-content: flex-start;
+  color: white;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  transition: .5s cubic-bezier(.685, .0473, .346, 1);
+}
+
+/* .sidenav:hover {
+  width: 200px;
+  height: 100%;
+  display: block;
+
+  background: #464748;
+  justify-content: flex-start;
+  color: white;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: justify;
+  transition: .5s cubic-bezier(.685, .0473, .346, 1);
+} */
+
+
+
+.avatar {
+  margin-left: 35px;
+}
+
+.name {
+  margin-left: 80px;
+  align-items: center;
+  margin-top: 2px;
+  font-weight: normal;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.designation {
+  margin-left: 50px;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 15px;
+  background-color: transparent;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.user-image {
+  width: 40px;
+  color: white;
+}
+
+
+/*
+#nom {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+}
+
+mat-list-item:hover {
+  background-color: #3F51B5;
+  color: white;
+  cursor: pointer;
+}
+
+mat-list-item a:hover {
+  color: white;
+}
+
+mat-list-item svg:hover {
+  color: white;
+} */
+
+svg {
+  color: white;
+  margin-right: 10px;
+}
+
+a {
+  color: white;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-left: 15px
+}
+
+.active {
+  color: white !important;
+  /* background-color: rgba(50, 150, 233, 0.692) !important;
+  background-image: linear-gradient(to bottom, #e2e5e8, #A9ACA4);*/
+  background-color: #BEC1BD;
+  -webkit-box-shadow: 9px 9px 11px -5px rgba(234, 222, 222, 0.48);
+  -moz-box-shadow: 9px 9px 11px -5px rgba(234, 222, 222, 0.48);
+  box-shadow: 9px 9px 11px -5px rgba(234, 222, 222, 0.48);
+
+}
+
+
+/*Nouveau CSS pour les nav-link*/
+
+li:hover {
+  background-color: #3F51B5;
+  color: white;
+  cursor: pointer;
+}
+
+li a:hover {
+  color: white;
+}
+
+li {
+  width: 100%;
+  color: white;
+  justify-content: space-between;
+}
+
+/* a svg{
+  margin-left: 25px;
+  font-size: 26px;
+  margin: 0px 20px 0px 0px;
+  position: relative;
+  top: 15px;
+} */
