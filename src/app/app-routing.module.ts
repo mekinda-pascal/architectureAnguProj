@@ -9,6 +9,7 @@ import { DataDetailComponent } from './Pages/data-detail/data-detail.component';
 import { HomeComponent } from './Pages/home/home.component';
 import { AccueilComponent } from './Pages/accueil/accueil.component';
 import { ModuleTestComponent } from './module-test/module-test.component';
+import { SidenavComponent } from './Components/sidenav/sidenav.component';
 
 const routes: Routes = [
   { path: 'test', component: TestComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'data', component: DataComponent },
   { path: 'param', component: ParamComponent },
   { path: 'home', component: HomeComponent },
+  { path: 'sidenav', component: SidenavComponent },
   { path: 'accueil', component: AccueilComponent },
   { path: 'test/detail', component: TestDetailComponent },
   { path: 'data/detail', component: DataDetailComponent },

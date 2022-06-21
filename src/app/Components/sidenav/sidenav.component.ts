@@ -7,17 +7,20 @@ import { Router } from '@angular/router';
   styleUrls: ['./sidenav.component.css'],
 })
 export class SidenavComponent implements OnInit {
-  nom = 'Pascal';
+  nom = localStorage.getItem('nom');
   selectedMenu: any = 'data';
-  test: any;
+  //test: string = '';
+  test = localStorage.getItem('var');
 
   constructor(private router: Router) {}
 
   ngOnInit(): void {
-    this.req();
-    // this.test = localStorage.getItem('var');
+    //this.req();
+
     // console.log('var: ', this.test);
     // window.location.reload();
+    //this.test = history.state.varTest;
+    console.log('test: ', this.test);
   }
 
   goTo(paramText: string) {
@@ -25,10 +28,10 @@ export class SidenavComponent implements OnInit {
   }
 
   req() {
-    if (localStorage.getItem('var') != null) {
-      this.test = localStorage.getItem('var');
-    }
-    console.log('var: ', this.test);
+    // if (localStorage.getItem('var') != null) {
+    //   this.test = localStorage.getItem('var');
+    // }
+    // console.log('var: ', this.test);
     //window.location.reload();
   }
 
